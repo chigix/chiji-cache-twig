@@ -1,0 +1,22 @@
+{
+    "name": "chigix/chiji-cache-twig",
+    "type": "library",
+    "description": "The Twig Cache Building Plugin for chiji frontend Intergration Solution.",
+    "keywords": ["Front-end", "Asset", "Chiji"],
+    "homepage": "http://www.chigix.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Richard Lea",
+            "email": "chigix@zoho.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "chigix/chiji": "dev-master",
+        "twig/twig": "~1.0"
+    },
+    "autoload": {
+        "psr-4": { "Chigi\\Chiji\\Plugin\\TwigCache\\": "src/" }
+    }
+}
