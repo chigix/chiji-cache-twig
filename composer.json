@@ -19,5 +19,6 @@
     },
     "autoload": {
         "psr-4": { "Chigi\\Chiji\\Plugin\\TwigCache\\": "src/" }
-    }
+    },
+    "minimum-stability": "dev"
 }
