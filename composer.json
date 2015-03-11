@@ -15,10 +15,9 @@
         "php": ">=5.4",
         "chigix/chiji": "dev-master",
         "twig/twig": "~1.0",
-        "chigix/chiji-release-extension": "dev-master@dev"
+        "chigix/chiji-release-extension": "@dev"
     },
     "autoload": {
         "psr-4": { "Chigi\\Chiji\\Plugin\\TwigCache\\": "src/" }
-    },
-    "minimum-stability": "dev"
+    }
 }
