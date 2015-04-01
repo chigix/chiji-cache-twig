@@ -13,9 +13,9 @@
     ],
     "require": {
         "php": ">=5.4",
-        "chigix/chiji": "dev-master",
+        "chigix/chiji": "~1.0.0",
         "twig/twig": "~1.0",
-        "chigix/chiji-release-extension": "@dev"
+        "chigix/chiji-release-extension": "dev-master"
     },
     "autoload": {
         "psr-4": { "Chigi\\Chiji\\Plugin\\TwigCache\\": "src/" }
